@@ -98,6 +98,11 @@ export CPATH="$COMPILE_DIR"/include
 export CPPPATH="$CPATH"
 
 #
+# Update npm
+#
+npm -g install npm
+
+#
 # Install meteor
 #
 echo "-----> Installing meteor"
